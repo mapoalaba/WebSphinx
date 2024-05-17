@@ -41,6 +41,8 @@ header {
     justify-content: space-between;
     padding: 0 3rem;
     unicode-bidi: isolate;
+    float: left;
+    transform: translate(0, -25%);
 }
 
 .navbar-left {
