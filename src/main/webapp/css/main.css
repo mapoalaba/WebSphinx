@@ -1,5 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #3f3f3f;
+    font-size: .875rem;
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}
+
 main {
     padding-top: 4rem;
+    unicode-bidi: isolate;
 }
 
 .slider {
@@ -23,4 +36,622 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* main 시작 */
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a {
+    background-color: #0000;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.app-main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.app-main > first-child {
+    flex-grow: 1;
+}
+
+.index-user-container {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.col-lg-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.user-profile {
+    background: #fff;
+    border: 1px solid #e1e3e7;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.user-info {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.user-icon.xl {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.badge-secondary {
+    background-color: #828086;
+    color: #fff;
+}
+
+.b-avatar {
+    align-items: center;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: inherit;
+    font-weight: 400;
+    height: 2.5rem;
+    justify-content: center;
+    line-height: 1;
+    max-width: 100%;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    vertical-align: middle;
+    width: 2.5rem;
+}
+
+.b-avatar-img {
+    align-items: center;
+    border-radius: inherit;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    mask-image: radial-gradient(#fff, #000);
+    overflow: hidden;
+    width: 100%;
+}
+
+.b-avatar-img img {
+
+    border-radius: inherit;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.user-texts {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.nickname {
+    color: #1a1a1b;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-introduction .description {
+    color: #7d7d80;
+    font-size: .8125rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.user-introduction .intro-text {
+    color: #303030;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.user-active {
+    display: flex;
+    gap: .5rem;
+    min-height: 21px;
+}
+
+.solved .solved-link {
+    color: #525252;
+    position: relative;
+}
+
+.solved-link .point {
+    color: #6b7af7;
+    font-weight: 600;
+}
+
+.write .write-link {
+    color: #525252;
+    position: relative;
+}
+
+.write-link .point {
+    color: #6b7af7;
+    font-weight: 600;
+}
+
+.action-mypage {
+    align-items: center;
+    border: 1px solid #e1e3e7;
+    border-radius: .25rem;
+    color: #525252;
+    display: flex;
+    font-size: .875rem;
+    height: 2.75rem;
+    justify-content: center;
+    line-height: 1.375rem;
+    padding: 0 1rem;
+}
+
+.right {
+    margin-bottom: 5rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 2rem;
+}
+
+.recently-solved-wargame-challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.header .title {
+    align-items: center;
+    color: #1a1a1b;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    gap: .5rem;
+    line-height: 1.5rem;
+}
+
+.header .title .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.header .description {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.challenges-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.challenge-row {
+    align-items: center;
+    border: 1px solid #eceef0;
+    border-radius: .25rem;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: .8fr .4fr .4fr .5fr;
+    min-height: 2.25rem;
+    padding: 1rem;
+}
+
+.challenge-row .challenge-title {
+    align-items: center;
+    border: 1px solid #eceef0;
+    border-radius: .25rem;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: .8fr .4fr .4fr .5fr;
+    min-height: 2.25rem;
+    padding: 1rem;
+}
+
+.wargame-level {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.wargame-level .title {
+    align-items: center;
+    color: #303030;
+    display: flex;
+    flex: 1 1 auto;
+    gap: .5rem;
+    overflow: hidden;
+}
+
+.wargame-level .title .title-text {
+    color: #303030;
+    flex: 0 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.challenge-category {
+    display: flex;
+    gap: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tag.size-md {
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    padding: .25rem .5rem;
+}
+
+.tag {
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    padding: .25rem .5rem;
+}
+
+.challenge-solved-at {
+    color: #7d7d80;
+    font-size: .875rem;
+    line-height: 1.375rem;
+}
+
+.new-writeup {
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: right;
+}
+
+.user-ranking {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-title {
+    color: #303030;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+.section-description {
+    color: #7d7d80;
+    font-size: .875rem;
+    line-height: 1.375rem;
+}
+
+.recommends {
+    color: #7d7d80;
+    font-size: .875rem;
+    line-height: 1.375rem;
+}
+
+.recommends .recommend {
+    padding: 1.25rem 1.5rem
+}
+
+.recomends .recommend .recommend-title {
+    color: #1a1a1b;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.recomends .recomend .recommend-users {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.recomend-user {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    height: 3.5rem;
+}
+
+.recomend-user .img-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 0 0 3rem;
+}
+
+.recomend-user .img-wrapper .flag {
+    height: 1.75rem;
+    width: 1.5rem;
+}
+
+.recomend-user .recommend-userinfo {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.userinfo-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.userinfo-container .userinfo {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    gap: .5rem;
+    overflow: hidden;
+}
+
+.userinfo-container .userinfo .icon {
+    flex: 0 0 auto;
+}
+
+.user-icon.md {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.user-icon.amo {
+    background: url(https://static.dreamhack.io/main/v2/img/amo.1a05d65.png);
+    background-size: cover;
+}
+
+.b-avatar .b-avatar-text {
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.b-avatar .b-avatar-text {
+    align-items: center;
+    border-radius: inherit;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    mask-image: radial-gradient(#fff, #000);
+    overflow: hidden;
+    width: 100%;
+}
+
+.recommend-user .recommend-userinfo .texts {
+    flex: 1;
+    flex-direction: row;
+}
+
+.userinfo-container .userinfo .texts {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.field-nickname {
+    align-items: center;
+    color: #1a1a1b;
+    display: flex;
+    overflow: hidden;
+}
+
+.field-nickname .nickname {
+    color: #1a1a1b;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.recommend-user .data-wrapper {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.score-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.score-text strong {
+    color: #6b7dfb;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.dh3-button.shape-standard.variant-secondary {
+    background: #f6f8fe;
+    border-color: #d9daff;
+    color: #596dfb;
+}
+
+.recommend-user .recommend-follow {
+    flex: 0 0 auto;
+    width: 7rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.dh3-button.size-md {
+    font-size: .875rem;
+    line-height: 1.375rem;
+    padding: .375rem .9375rem;
+}
+
+[type=button]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.dh3-button {
+    border: 1px solid #0000;
+    border-radius: .25rem;
+    transition: all .33s cubic-bezier(.075,.82,.165,1);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-secondary {
+    background-color: #828086;
+    border-color: #828086;
+    color: #fff;
+}
+
+.btn {
+    background-color: #0000;
+    border: 1px solid #0000;
+    border-radius: .25rem;
+    color: #3f3f3f;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    text-align: center;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+}
+
+[type=button], button {
+    -webkit-appearance: button;
+}
+
+button {
+    text-transform: none;
+    overflow: visible;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    border-radius: 0;
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.user-contribution {
+    color: #7d7d80;
+    text-align: right;
+}
+
+.user-contribution .level-text {
+    font-size: .8125rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.user-contribution .exp-text {
+    font-size: .6875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
 }

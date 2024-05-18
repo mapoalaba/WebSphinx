@@ -21,9 +21,9 @@
         <div class="slideshow-container">
           <div class="slider">
             <div class="slides">
-              <div class="slide"><img src="../img/banner1.png" alt="이미지1">샬라샬라</div>
-              <div class="slide"><img src="../img/logo.png" alt="이미지2">크크크크크크</div>
-              <div class="slide"><img src="../img/banner1.png" alt="이미지3">ㅝ러루우러</div>
+              <div class="slide"><img src="../img/banner1.jpg" alt="이미지1"></div>
+              <div class="slide"><img src="../img/banner2.png" alt="이미지2"></div>
+              <div class="slide"><img src="../img/banner3.png" alt="이미지3"></div>
             </div>
           </div>
         </div>
@@ -133,74 +133,295 @@
                         <div class="recommend-users">
                           <div class="recommend-user">
                             <div class="img-wrapper">
-                              <i class="fa-solid fa-1 flag"></i>
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
                             </div>
                             <div text-direction="row" class="recommend-userinfo userinfo-container">
                               <div class="userinfo md">
-                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md amo">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
                                   <span class="b-avatar-text">
-                                    <span></span>
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
                                   </span>
                                 </span>
                                 <div class="texts md">
                                   <a href="#" class="field-nickname md">
                                     <span class="nickname md"> QWER </span>
-                                    <div class="tier-icon grandmaster-1 tier-icon md hide"></div>
                                   </a>
                                   <div class="data-wrapper">
-                                    <div class="tier-text">
-                                      <div class="wargame-tier">
-                                        <div class="tier-icon master-1"></div>
-                                      </div>
-                                      <span class="text-master">21 문제</span>
+                                    <div class="score-text">
+                                      <strong>211 문제</strong>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="score-text">
+                                      <strong>211 문제</strong>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="score-text">
+                                      <strong>211 문제</strong>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="score-text">
+                                      <strong>211 문제</strong>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="score-text">
+                                      <strong>211 문제</strong>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
                           </div>
                         </div>
                       </div>
                       <div class="recommend">
                         <span class="recommend-title"> 커뮤니티 랭킹 TOP5 유저 </span>
-                      </div>
-                    </div>
-                    <div class="recommends">
-                      <div class="recommend">
-                        <span class="recommend-title"> 워게임 랭킹 TOP5 유저 </span>
                         <div class="recommend-users">
                           <div class="recommend-user">
                             <div class="img-wrapper">
-                              <i class="fa-solid fa-1 flag"></i>
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
                             </div>
                             <div text-direction="row" class="recommend-userinfo userinfo-container">
                               <div class="userinfo md">
                                 <span class="b-avatar user-icon icon badge-secondary rounded-circle md amo">
                                   <span class="b-avatar-text">
-                                    <span></span>
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
                                   </span>
                                 </span>
                                 <div class="texts md">
                                   <a href="#" class="field-nickname md">
                                     <span class="nickname md"> QWER </span>
-                                    <div class="tier-icon grandmaster-1 tier-icon md hide"></div>
                                   </a>
                                   <div class="data-wrapper">
-                                    <div class="tier-text">
-                                      <div class="wargame-tier">
-                                        <div class="tier-icon master-1"></div>
-                                      </div>
-                                      <span class="text-master">21 문제</span>
+                                    <div class="user-contribution">
+                                      <div class="level-text"> 작성 글 / 댓글 </div>
+                                      <div class="exp-text"> 21개 / 91개 </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="user-contribution">
+                                      <div class="level-text"> 작성 글 / 댓글 </div>
+                                      <div class="exp-text"> 21개 / 91개 </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="user-contribution">
+                                      <div class="level-text"> 작성 글 / 댓글 </div>
+                                      <div class="exp-text"> 21개 / 91개 </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="user-contribution">
+                                      <div class="level-text"> 작성 글 / 댓글 </div>
+                                      <div class="exp-text"> 21개 / 91개 </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
+                          </div>
+                          <div class="recommend-user">
+                            <div class="img-wrapper">
+                              <img src="https://static.dreamhack.io/main/v2/img/top1.364504e.svg" class="flag">
+                            </div>
+                            <div text-direction="row" class="recommend-userinfo userinfo-container">
+                              <div class="userinfo md">
+                                <span class="b-avatar user-icon icon badge-secondary rounded-circle md">
+                                  <span class="b-avatar-text">
+                                    <img src="https://dreamhack-media.s3.amazonaws.com/user/b2fd4c0b0123ab736cd78808549b3457965af1eef7a75b7e396791fedb3dad33.png" alt="avatar">
+                                  </span>
+                                </span>
+                                <div class="texts md">
+                                  <a href="#" class="field-nickname md">
+                                    <span class="nickname md"> QWER </span>
+                                  </a>
+                                  <div class="data-wrapper">
+                                    <div class="user-contribution">
+                                      <div class="level-text"> 작성 글 / 댓글 </div>
+                                      <div class="exp-text"> 21개 / 91개 </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button type="button" class="btn btn-follow recommend-follow btn-secondary btn-block dh3-button size-md variant-secondary shape-standard">
+                              <img src="https://static.dreamhack.io/main/v2/img/user-add-outlined.9b4eb29.svg">
+                              <span class="description">프로필</span>
+                            </button>
                           </div>
                         </div>
-                      </div>
-                      <div class="recommend">
-                        <span class="recommend-title"> 커뮤니티 랭킹 TOP5 유저 </span>
                       </div>
                     </div>
                   </div>
