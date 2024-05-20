@@ -3,20 +3,14 @@
 }
 
 body {
-    display: block;
-    background-color: #fff;
-    color: #3f3f3f;
-    font-size: .875rem;
-    line-height: 1.5;
-    text-align: left;
-    margin: 8px;
+    font-smooth: never;
     -webkit-font-smoothing: antialiased;
-    height: 100%;
-    min-height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Pretendard Variable,Noto Sans KR,sans-serif;
+    font-weight: 500
 }
 
 main {
-    padding-top: 4rem;
     unicode-bidi: isolate;
 }
 
@@ -34,7 +28,7 @@ main {
 
 .slider {
     width: 100%;
-    height: 20rem;
+    height: fit-content;
     overflow: hidden;
 }
 
@@ -45,7 +39,7 @@ main {
 
 .slide {
     width: 100%;
-    height: 20rem;
+    height: fit-content;
     flex-shrink: 0;
 }
 
@@ -81,9 +75,7 @@ a {
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
     cursor: pointer;
-    text-decoration: underline;
 }
 
 strong {
