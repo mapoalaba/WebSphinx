@@ -3,16 +3,33 @@
 }
 
 body {
+    display: block;
+    background-color: #fff;
     color: #3f3f3f;
     font-size: .875rem;
     line-height: 1.5;
     text-align: left;
+    margin: 8px;
     -webkit-font-smoothing: antialiased;
+    height: 100%;
+    min-height: 100%;
 }
 
 main {
     padding-top: 4rem;
     unicode-bidi: isolate;
+}
+
+#__nuxt {
+    height: 100%;
+    min-height: 100%;
+}
+
+.layout-default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding-top: 4rem;
 }
 
 .slider {
@@ -59,6 +76,7 @@ img {
 
 a {
     background-color: #0000;
+    color: #6b7af7;
     text-decoration: none;
 }
 
@@ -78,7 +96,7 @@ strong {
     flex-grow: 1;
 }
 
-.app-main > first-child {
+.app-main>:first-child {
     flex-grow: 1;
 }
 
@@ -102,6 +120,20 @@ strong {
     margin-right: -10px;
 }
 
+@media (min-width: 1080px) .index-user-container .left {
+     padding-left: 0;
+     padding-right: .75rem;
+}
+
+@media (min-width: 1080px) .d-lg-block {
+    display: block !important;
+}
+
+@media (min-width: 1080px) .col-lg-4 {
+                               flex: 0 0 33.33333333%;
+                               max-width: 33.33333333%;
+                           }
+
 .d-none {
     display: none !important;
 }
@@ -114,16 +146,16 @@ strong {
 }
 
 .user-profile {
-    background: #fff;
-    border: 1px solid #e1e3e7;
-    border-radius: .25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1.5rem;
+background: #fff;
+border: 1px solid #e1e3e7;
+border-radius: .25rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+padding: 1.5rem;
 }
 
-.user-info {
+.user-profile .user-info {
     align-items: center;
     display: flex;
     gap: .5rem;
@@ -172,7 +204,7 @@ strong {
     width: 100%;
 }
 
-.b-avatar-img img {
+.b-avatar .b-avatar-img img {
 
     border-radius: inherit;
     height: 100%;
@@ -181,14 +213,14 @@ strong {
     width: 100%;
 }
 
-.user-texts {
+.user-profile .user-info .user-texts {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
     overflow: hidden;
 }
 
-.nickname {
+.user-profile .user-info .user-texts .nickname {
     color: #1a1a1b;
     font-size: 1.125rem;
     font-weight: 600;
@@ -198,47 +230,57 @@ strong {
     white-space: nowrap;
 }
 
-.name {
+.user-profile .user-info .user-texts .nickname a {
+    color: #1a1a1b;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.user-introduction .description {
+.user-profile .user-info .user-texts .representative {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-profile .user-introduction .description {
     color: #7d7d80;
     font-size: .8125rem;
     font-weight: 600;
     line-height: 1.25rem;
 }
 
-.user-introduction .intro-text {
+.user-profile .user-introduction .intro-text {
     color: #303030;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.user-active {
+.user-profile .user-active {
     display: flex;
     gap: .5rem;
     min-height: 21px;
 }
 
-.solved .solved-link {
+.user-profile .user-active .solved-link {
     color: #525252;
     position: relative;
 }
 
-.solved-link .point {
+.user-profile .user-active .solved-link .point {
     color: #6b7af7;
     font-weight: 600;
 }
 
-.write .write-link {
+.user-profile .user-active .write .write-link {
     color: #525252;
     position: relative;
 }
 
-.write-link .point {
+.user-profile .user-active .write-link .point {
     color: #6b7af7;
     font-weight: 600;
 }
@@ -255,6 +297,57 @@ strong {
     line-height: 1.375rem;
     padding: 0 1rem;
 }
+
+/*.typo-link {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 1rem;*/
+/*    margin-top: 2rem;*/
+/*}*/
+
+/*.typo-img {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.aside-links {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 1rem;*/
+/*    margin-top: 2rem;*/
+/*}*/
+
+/*.link-items {*/
+/*    align-items: center;*/
+/*    border: 1px solid #e1e3e7;*/
+/*    border-radius: .25rem;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.link-items .link-card {*/
+/*    color: #000;*/
+/*    flex: 1;*/
+/*    font-size: 1rem;*/
+/*    font-weight: 700;*/
+/*    line-height: 1.75rem;*/
+/*    padding: 1rem 0;*/
+/*}*/
+
+/*.link-items .link-card .item {*/
+/*    align-items: center;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding: 0 1rem;*/
+/*}*/
+
+/*.link-items .link-card .item .icon {*/
+/*    height: 1.5rem;*/
+/*    margin-left: .5rem;*/
+/*    width: 1.5rem;*/
+/*}*/
+
+
 
 .right {
     margin-bottom: 5rem;
@@ -295,8 +388,9 @@ strong {
 }
 
 .header .description {
-    height: 1.5rem;
-    width: 1.5rem;
+    color: #aaacb0;
+    font-size: .875rem;
+    line-height: .625rem;
 }
 
 .challenges-list {
@@ -318,13 +412,13 @@ strong {
 
 .challenge-row .challenge-title {
     align-items: center;
-    border: 1px solid #eceef0;
-    border-radius: .25rem;
-    display: grid;
+    color: #303030;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
     gap: .5rem;
-    grid-template-columns: .8fr .4fr .4fr .5fr;
-    min-height: 2.25rem;
-    padding: 1rem;
+    line-height: 1.75rem;
+    overflow: hidden;
 }
 
 .wargame-level {
@@ -332,7 +426,7 @@ strong {
     width: 1.75rem;
 }
 
-.wargame-level .title {
+.challenge-row .challenge-title .title {
     align-items: center;
     color: #303030;
     display: flex;
@@ -341,7 +435,7 @@ strong {
     overflow: hidden;
 }
 
-.wargame-level .title .title-text {
+.challenge-row .challenge-title .title .title-text {
     color: #303030;
     flex: 0 1 auto;
     overflow: hidden;
@@ -350,7 +444,7 @@ strong {
     word-break: break-all;
 }
 
-.challenge-category {
+.challenge-row .challenge-category {
     display: flex;
     gap: .5rem;
     overflow: hidden;
@@ -365,18 +459,18 @@ strong {
 }
 
 .tag {
-    font-size: .8125rem;
-    line-height: 1.375rem;
-    padding: .25rem .5rem;
+    background: #eceef0;
+    border-radius: .25rem;
+    color: #7d7d80;
 }
 
-.challenge-solved-at {
+.challenge-row .challenge-solved-at {
     color: #7d7d80;
     font-size: .875rem;
     line-height: 1.375rem;
 }
 
-.new-writeup {
+.challenge-row .new-writeup {
     font-size: .875rem;
     font-weight: 600;
     line-height: 1.25rem;
@@ -403,16 +497,17 @@ strong {
 }
 
 .recommends {
-    color: #7d7d80;
-    font-size: .875rem;
-    line-height: 1.375rem;
+    border: 1px solid #eceef0;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;;
 }
 
 .recommends .recommend {
     padding: 1.25rem 1.5rem
 }
 
-.recomends .recommend .recommend-title {
+.recommends .recommend .recommend-title {
     color: #1a1a1b;
     font-size: 1rem;
     font-weight: 600;
@@ -420,13 +515,13 @@ strong {
     margin-bottom: .5rem;
 }
 
-.recomends .recomend .recommend-users {
+.recommends .recommend .recommend-users {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 }
 
-.recomend-user {
+.recommend-user {
     align-items: center;
     display: flex;
     flex: 1;
@@ -434,18 +529,18 @@ strong {
     height: 3.5rem;
 }
 
-.recomend-user .img-wrapper {
+.recommend-user .img-wrapper {
     align-items: center;
     display: flex;
     flex: 0 0 3rem;
 }
 
-.recomend-user .img-wrapper .flag {
+.recommend-user .img-wrapper .flag {
     height: 1.75rem;
     width: 1.5rem;
 }
 
-.recomend-user .recommend-userinfo {
+.recommend-user .recommend-userinfo {
     flex: 1;
     justify-content: space-between;
 }
@@ -655,3 +750,4 @@ button {
     font-weight: 400;
     line-height: 1.125rem;
 }
+
