@@ -22,7 +22,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-default">
-        <jsp:include page="/main/header.jsp"/>
+        <jsp:include page="/WEB-INF/views/main/header.jsp"/>
         <main class="app-main">
           <div class="forum-page container">
             <div class="row">
@@ -485,7 +485,7 @@
             </div>
           </div>
         </main>
-        <jsp:include page="/main/footer.jsp"/>
+        <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
       </div>
     </div>
   </div>

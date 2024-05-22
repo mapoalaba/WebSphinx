@@ -22,7 +22,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-default">
-        <jsp:include page="/main/header.jsp"/>
+        <jsp:include page="/WEB-INF/views/main/header.jsp"/>
         <main class="app-main">
           <div class="forum-page container">
             <div class="row">
@@ -30,7 +30,7 @@
                 <div class="forum-aside-wrapper">
                   <div class="forum-aside pc">
                     <div>
-                      <a href="/forum/forumList.jsp" class="link-title nuxt-link-active">
+                      <a href="/WEB-INF/views/forum/forumList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> HOME </div>
                       </a>
                     </div>
@@ -316,7 +316,7 @@
             </div>
           </div>
         </main>
-        <jsp:include page="/main/footer.jsp"/>
+        <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
       </div>
     </div>
   </div>

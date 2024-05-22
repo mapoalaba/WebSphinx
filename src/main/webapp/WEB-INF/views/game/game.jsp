@@ -15,7 +15,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-wargame">
-        <jsp:include page="/main/header.jsp"/>
+        <jsp:include page="/WEB-INF/views/main/header.jsp"/>
         <main class="app-main">
           <section class="page-content">
             <div class="challenges-detail-page container">
@@ -635,7 +635,7 @@
           </section>
         </main>
       </div>
-      <jsp:include page="/main/footer.jsp"/>
+      <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
     </div>
   </div>
   <%-- 부트스트랩 --%>
