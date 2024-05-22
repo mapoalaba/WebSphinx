@@ -140,6 +140,21 @@ img {
     transition: transform .16s cubic-bezier(.075,.82,.165,1);
 }
 
+.card-beginner .card-description {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.promote-card .card-description {
+    flex: 0 0 auto;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .promote-card .card-title {
     flex: 0 0 auto;
     margin-bottom: 0;
@@ -160,6 +175,33 @@ img {
     width: 184px;
 }
 
+.promote-card .disable-filter {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: auto;
+}
+
+.svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+.mr-2 {
+    margin-right: .5rem !important;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
+}
+
 .card-first-blood {
     background: #ff5562;
 }
@@ -170,6 +212,71 @@ img {
 
 .card-ctf {
     background: #6b7af7;
+}
+
+/* js 이후 */
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.promote-card .card-title {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-beginner .card-description {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.promote-card .card-description {
+    flex: 0 0 auto;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.promote-card .card-image {
+    bottom: 0;
+    height: 184px;
+    position: absolute;
+    right: 0;
+    transform: translateX(15%);
+    width: 184px;
+}
+
+.promote-card .disabled-filter {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: auto;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+
+.mr-2 {
+    margin-right: .5rem !important;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
 }
 
 .row {
@@ -336,12 +443,17 @@ input[type="text" i] {
     min-width: 5rem;
 }
 
-.challenges-filter .desktop-filter .filter-selections {
-    align-items: center;
-    display: flex;
-    flex: 1 1 auto;
-    flex-wrap: wrap;
-    gap: .5rem;
+.challenges-filter .desktop-filter .filter-selection {
+    align-items: flex-start;
+    border: 1.5px solid #8f9194;
+    border-radius: 1.25rem;
+    color: #8f9194;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    padding: .4375rem 1rem;
 }
 
 .challenges-filter .desktop-filter .filter-selections .difficulty {
@@ -353,6 +465,10 @@ input[type="text" i] {
 .challenges-filter .desktop-filter .wargame-level {
     height: 2.25rem;
     width: 2.25rem;
+}
+
+.challenges-filter .desktop-filter .filter-selections .difficulty.active {
+    opacity: 1;
 }
 
 .challenges-filter .desktop-filter .selection.active {
