@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../../../resources/css/footer.css">
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -71,7 +71,7 @@
       <div class="introduce">
         <div class="introduce_branding">
           <div class="introduce_logo">
-            <img src="../img/logo.png">
+            <img src="../../../resources/img/logo.png">
           </div>
           <div class="introduce_externals">
             <a href="#" target="_blank">

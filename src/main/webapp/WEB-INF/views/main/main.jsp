@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../../../resources/css/main.css">
   <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
   <%-- 부트스트랩 --%>
@@ -26,9 +26,9 @@
           <div class="slideshow-container">
             <div class="slider">
               <div class="slides">
-                <div class="slide"><img src="../img/banner1.jpg" alt="이미지1"></div>
-                <div class="slide"><img src="../img/banner2.png" alt="이미지2"></div>
-                <div class="slide"><img src="../img/banner3.png" alt="이미지3"></div>
+                <div class="slide"><img src="../../../resources/img/banner1.jpg" alt="이미지1"></div>
+                <div class="slide"><img src="../../../resources/img/banner2.png" alt="이미지2"></div>
+                <div class="slide"><img src="../../../resources/img/banner3.png" alt="이미지3"></div>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@
                   <div class="challenges-list">
                     <div class="challenge-row solved-challenge">
                       <div class="challenge-title">
-                        <img src="../img/wargame-level1.svg" class="wargame-level">
+                        <img src="../../../resources/img/wargame-level1.svg" class="wargame-level">
                         <a href="#" class="title">
                           <span class="title-text">sql-injection</span>
                         </a>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="challenge-row solved-challenge">
                       <div class="challenge-title">
-                        <img src="../img/wargame-level1.svg" class="wargame-level">
+                        <img src="../../../resources/img/wargame-level1.svg" class="wargame-level">
                         <a href="#" class="title">
                           <span class="title-text">sql-injection</span>
                         </a>
@@ -146,7 +146,7 @@
                       </div>
                     </div>                  <div class="challenge-row solved-challenge">
                     <div class="challenge-title">
-                      <img src="../img/wargame-level1.svg" class="wargame-level">
+                      <img src="../../../resources/img/wargame-level1.svg" class="wargame-level">
                       <a href="#" class="title">
                         <span class="title-text">sql-injection</span>
                       </a>
@@ -474,7 +474,7 @@
     <jsp:include page="footer.jsp"/>
   </div>
 </div>
-    <script src="../js/main.js"></script>
+    <script src="../../../resources/js/main.js"></script>
 <%-- 부트스트랩 --%>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>

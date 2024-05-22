@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../css/qnaList.css">
+  <link rel="stylesheet" href="../../../css/qnaList.css">
   <script src="../js/qnaList.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <%-- 폰트어썸 --%>

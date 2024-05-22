@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../../../resources/css/header.css">
 <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
 </head>
@@ -17,7 +17,7 @@
         <ul class="navbar-nav navbar-left">
           <a href="#" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
             <div>
-                <img src="../img/logo.png">
+                <img src="../../../resources/img/logo.png">
               </svg>
             </div>
           </a>
