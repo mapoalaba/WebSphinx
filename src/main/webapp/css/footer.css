@@ -236,3 +236,14 @@ svg:not(:root) {
     font-weight: 400;
     line-height: 1.125rem;
 }
+
+.footer_wrap {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+@media (min-width: 1080px) {
+    .container {
+        max-width: 1200px;
+    }
+}

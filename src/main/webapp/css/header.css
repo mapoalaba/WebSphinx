@@ -274,3 +274,10 @@ div {
     padding: 0;
     display: block;
 }
+
+
+.default-header.is-scrolled .navbar {
+    backdrop-filter: blur(30px);
+    background-color: #ffffffb3;
+    border-bottom: 1px solid #dedee6;
+}
