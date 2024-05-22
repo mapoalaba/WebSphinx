@@ -1,8 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../../../css/qnaList.css">
-  <script src="../js/qnaList.js"></script>
+  <link rel="stylesheet" href="../../../resources/css/qnaList.css">
+  <script src="../../../resources/js/qnaList.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-default">
-        <jsp:include page="/WEB-INF/views/main/header.jsp"/>
+        <jsp:include page="../main/header.jsp"/>
         <main class="app-main">
           <div class="container">
             <div class="row">
@@ -23,12 +23,12 @@
                 <div id="forum-aside" class="forum-aside-wrapper forum-padding">
                   <div class="forum-aside pd">
                     <div>
-                      <a href="/WEB-INF/views/forum/forumList.jsp" class="link-title nuxt-link-active">
+                      <a href="../forum/forumList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> HOME </div>
                       </a>
                     </div>
                     <div>
-                      <a href="/WEB-INF/views/forum/forumList.jsp" class="link-title nuxt-link-active">
+                      <a href="../hot/hotList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> 인기글 </div>
                       </a>
                     </div>
@@ -38,7 +38,7 @@
                       </a>
                     </div>
                     <div>
-                      <a href="/WEB-INF/views/forum/forumList.jsp" class="link-title nuxt-link-active">
+                      <a href="../free/freeList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> 자유게시판 </div>
                       </a>
                     </div>
@@ -765,7 +765,7 @@
         </main>
 
 
-        <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
+        <jsp:include page="../main/footer.jsp"/>
       </div>
     </div>
   </div>

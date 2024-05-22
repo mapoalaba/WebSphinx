@@ -8,8 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../../../css/forumList.css">
-  <script src="../js/forumList.js"></script>
+  <link rel="stylesheet" href="../../../resources/css/forumList.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
@@ -22,7 +21,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-default">
-        <jsp:include page="/WEB-INF/views/main/header.jsp"/>
+        <jsp:include page="../main/header.jsp"/>
         <main class="app-main">
           <div class="forum-page container">
             <div class="row">
@@ -485,7 +484,7 @@
             </div>
           </div>
         </main>
-        <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
+        <jsp:include page="../main/footer.jsp"/>
       </div>
     </div>
   </div>

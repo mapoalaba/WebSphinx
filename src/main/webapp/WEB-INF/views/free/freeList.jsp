@@ -1,8 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../../../css/freeList.css">
-  <script src="../js/freeList.js"></script>
+  <link rel="stylesheet" href="../../../resources/css/freeList.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
@@ -15,7 +14,7 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-default">
-        <jsp:include page="/WEB-INF/views/main/header.jsp"/>
+        <jsp:include page="../main/header.jsp"/>
         <main class="app-main">
           <div class="container">
             <div class="row">
@@ -23,22 +22,22 @@
                 <div id="forum-aside" class="forum-aside-wrapper">
                   <div class="forum-aside pc">
                     <div>
-                      <a href="/WEB-INF/views/forum/forumList.jsp" class="link-title nuxt-link-active">
+                      <a href="../forum/forumList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> HOME </div>
                       </a>
                     </div>
                     <div>
-                      <a href="/WEB-INF/views/hot/hotList.jsp" class="link-title nuxt-link-active">
+                      <a href="../hot/hotList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> 인기글 </div>
                       </a>
                     </div>
                     <div>
-                      <a href="/WEB-INF/views/qna/qnaList.jsp" class="link-title nuxt-link-active">
+                      <a href="../qna/qnaList.jsp" class="link-title nuxt-link-active">
                         <div class="link"> Q&A </div>
                       </a>
                     </div>
                     <div>
-                      <a href="#" aria-current="page" class="link-title nuxt-link-exact-active nuxt-link-active">
+                      <a href="../free/freeList.jsp" aria-current="page" class="link-title nuxt-link-exact-active nuxt-link-active">
                         <div class="link active"> 자유게시판 </div>
                       </a>
                     </div>
@@ -744,7 +743,7 @@
             </div>
           </div>
         </main>
-        <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
+        <jsp:include page="../main/footer.jsp"/>
       </div>
     </div>
   </div>

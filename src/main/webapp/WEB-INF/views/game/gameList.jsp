@@ -1,8 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link rel="stylesheet" href="../../../css/gameList.css">
-  <script src="../../../js/gameList.js"></script>
+  <link rel="stylesheet" href="../../../resources/css/gameList.css">
+  <script src="../../../resources/js/gameList.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
 <body style="position: static">
   <div id="__nuxt">
     <div class="layout-wargame">
-      <jsp:include page="/WEB-INF/views/main/header.jsp"/>
+      <jsp:include page="../main/header.jsp"/>
       
       <main class="app-main">
         <section class="page-content">
@@ -962,7 +962,7 @@
         </section>
       </main>
       
-      <jsp:include page="/WEB-INF/views/main/footer.jsp"/>
+      <jsp:include page="../main/footer.jsp"/>
     </div>
   </div>
 <%-- 부트스트랩 --%>
