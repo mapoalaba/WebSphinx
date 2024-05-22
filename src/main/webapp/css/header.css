@@ -251,11 +251,11 @@ img {
     color: #aaacb0;
     font-weight: 600;
     margin: 0 1.5rem;
- }
+}
 
 div {
-     display: block;
-     unicode-bidi: isolate;
+    display: block;
+    unicode-bidi: isolate;
 }
 
 .nav-item:last-child {
