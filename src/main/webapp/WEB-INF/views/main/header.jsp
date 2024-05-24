@@ -40,7 +40,7 @@
                 <div class="profile-icon">
                   <span class="b-avatar user-icon badge-secondary rounded-circle sm">
                     <span class="b-avatar-img">
-                      <img src="#" alt="avatar">
+                      <img src="https://dreamhack-media.s3.amazonaws.com/user/542f3e0cf32a482d3f1c71e82a4f511789ad6c69b5671b1b8ece7702ab81bfc8.jpg" alt="avatar">
                     </span>
                   </span>
                 </div>

@@ -1,0 +1,266 @@
+#__layout, #__nuxt, body, html {
+    height: 100%;
+    min-height: 100%;
+}
+
+.layout-default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding-top: 4rem;
+}
+
+.app-main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.drill-hero {
+    background: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.drill-container {
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 7.5rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 0rem;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.drill-hero .drill-container .description {
+    color: #525252;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.drill-hero .drill-container .security-level {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.drill-hero .drill-container .security-level .intro-card-wrapper:first-child {
+    animation: slide-in1-fe75219a .5s ease-out;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+
+.drill-hero .drill-container .security-level .intro-card-wrapper {
+    flex: 1;
+}
+
+.intro-card {
+    align-items: center;
+    border: 1px solid #939aff;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.intro-card .card-title {
+    align-items: center;
+    background: #ecedff;
+    border-radius: .25rem;
+    color: #525252;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    padding: .375rem 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.intro-card .img {
+    height: 58px;
+    width: 58px;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+/* 보안 레벨 설정 */
+
+.security-manage {
+    background: #fff;
+    padding-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.security-manage .security-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.security-container {
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 7.5rem;
+}
+
+.security-manage h1 {
+    text-align: center;
+}
+
+.security-manage .description {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.security-manage .manage-details-link mt-3 {
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+
+.security-manage .manage-circles {
+    margin-top: 6rem;
+}
+
+.desktop-wrapper {
+    background-image: url(https://static.dreamhack.io/main/v2/img/circle-border.890f2bb.svg);
+    display: flex;
+    height: 320px;
+    justify-content: space-between;
+    padding: 23px;
+    width: 1002px;
+}
+
+.animate-on-scroll .circle {
+    animation: fade-in-6f7984c1 .5s ease-out .1s;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+
+.desktop-wrapper .circle {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 100%;
+    color: #525252;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 274px;
+    justify-content: center;
+    text-align: center;
+    width: 274px;
+}
+
+.animation-triggered .animate-child, .animation-triggered.animate-child {
+    animation-play-state: running !important;
+}
+
+.desktop-wrapper .circle .title {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    background-color: #0000;
+    color: #6b7af7;
+    text-decoration: none;
+}
+
+/* login */
+
+.app-main>:first-child {
+    flex-grow: 1;
+}
+
+.page-login {
+    margin: 0;
+    max-width: unset;
+    padding: 9rem 0;
+}
+
+.login-card {
+    border: none;
+    margin: 0 auto 1rem;
+    padding: 4rem;
+    width: 30rem;
+}
+
+.card {
+    word-wrap: break-word;
+    background-clip: initial;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.login-card .login-card-header {
+    margin-bottom: 2rem;
+}
+
+.login-card .login-card-header h2 {
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.login-card .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.dh3-input .dh-input-element {
+    border: 1px solid #e1e3e7;
+    border-radius: .25rem;
+    color: #303030;
+    font-size: 1rem;
+    padding: .62rem 1rem;
+    transition: border-color .33s ease-in-out;
+    width: 100%;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.dh3-button.shape-standard.variant-primary {
+    background: #687dfb;
+    border-color: #687dfb;
+    outline-color: #687dfb;
+}
