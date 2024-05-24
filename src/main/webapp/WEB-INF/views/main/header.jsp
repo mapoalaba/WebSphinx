@@ -15,7 +15,7 @@
 <%--      </button>--%>
       <div class="navbar-inner">
         <ul class="navbar-nav navbar-left">
-          <a href="#" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
+          <a href="../main/main.jsp" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
             <div>
                 <img src="../../../resources/img/logo.png">
               </svg>
@@ -27,10 +27,10 @@
             <a href="#" class="nav-link" target="_self"> 드릴 </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_self"> 워게임 </a>
+            <a href="../game/gameList.jsp" class="nav-link" target="_self"> 워게임 </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_self"> 커뮤니티 </a>
+            <a href="../forum/forumList.jsp" class="nav-link" target="_self"> 커뮤니티 </a>
           </li>
         </ul>
         <ul class="navbar-nav navbar-right">

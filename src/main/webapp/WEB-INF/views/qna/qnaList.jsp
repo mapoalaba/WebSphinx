@@ -33,7 +33,7 @@
                       </a>
                     </div>
                     <div>
-                      <a href="#" class="link-title nuxt-link-active">
+                      <a href="qnaList.jsp" class="link-title nuxt-link-active">
                         <div class="link active"> Q&A </div>
                       </a>
                     </div>

@@ -34,17 +34,17 @@
                       </a>
                     </div>
                     <div>
-                      <a href="#" class="link-title">
+                      <a href="../hot/hotList.jsp" class="link-title">
                         <div class="link"> 인기글 </div>
                       </a>
                     </div>
                     <div>
-                      <a href="#" class="link-title">
+                      <a href="../qna/qnaList.jsp" class="link-title">
                         <div class="link"> Q&A </div>
                       </a>
                     </div>
                     <div>
-                      <a href="" class="link-title">
+                      <a href="../free/freeList.jsp" class="link-title">
                         <div class="link"> 자유게시판 </div>
                       </a>
                     </div>
@@ -305,7 +305,7 @@
                     <div class="row main row-cols-2">
                       <div class="col-md-6 col-12">
                         <div class="community-item">
-                          <a href="#" class="banner-link">
+                          <a href="../free/freeList.jsp" class="banner-link">
                             <div class="community-banner" style="background: rgb(234, 252, 246);">
                               <div class="left">
                                 <div class="banner-title"> 자유게시판 </div>
@@ -392,7 +392,7 @@
                       </div>
                       <div class="col-md-6 col-12">
                         <div class="community-item">
-                          <a href="#" class="banner-link">
+                          <a href="../qna/qnaList.jsp" class="banner-link">
                             <div class="community-banner" style="background: rgb(255, 241, 232);">
                               <div class="left">
                                 <div class="banner-title"> Q&A 게시판 </div>

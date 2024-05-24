@@ -36,7 +36,7 @@
           <div class="col-header">워게임</div>
           <ul>
             <li>
-              <a href="#">모든 분야</a>
+              <a href="../game/gameList.jsp">모든 분야</a>
             </li>
             <li>
               <a href="#">웹 해킹</a>
@@ -53,16 +53,16 @@
           <div class="col-header">커뮤니티</div>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="../forum/forumList.jsp">Home</a>
             </li>
             <li>
-              <a href="#">인기 게시판</a>
+              <a href="../hot/hotList.jsp">인기 게시판</a>
             </li>
             <li>
-              <a href="#">Q&A 게시판</a>
+              <a href="../qna/qnaList.jsp">Q&A 게시판</a>
             </li>
             <li>
-              <a href="#">자유 게시판</a>
+              <a href="../free/freeList.jsp">자유 게시판</a>
             </li>
           </ul>
         </div>
