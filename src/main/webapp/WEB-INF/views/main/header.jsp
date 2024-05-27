@@ -24,7 +24,7 @@
         </ul>
         <ul class="navbar-nav dh3-menu pt-1">
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_self"> 드릴 </a>
+            <a href="../drill/drillList.jsp" class="nav-link" target="_self"> 드릴 </a>
           </li>
           <li class="nav-item">
             <a href="../game/gameList.jsp" class="nav-link" target="_self"> 워게임 </a>
