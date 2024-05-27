@@ -808,6 +808,11 @@ label {
     font-weight: 600;
 }
 
+.user-followers .follower .point {
+    color: #6b7af7;
+    font-weight: 600;
+}
+
 .abstract-post-form .button-wrapper {
     align-items: center;
     display: flex;
@@ -900,3 +905,7 @@ svg {
     word-break: break-word;
 }
 
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
