@@ -127,11 +127,8 @@
               </span>
                     </h3>
                     <div class="dropdown b-dropdown btn-group dh-dropdown-filter size-md" id="__BVID__1003">
-                      <button aria-haspopup="menu" aria-expanded="false" type="button" class="btn dropdown-toggle btn-secondary dropdown-toggle-no-caret" id="__BVID__1003__BV_toggle_">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <span> 최신순 </span>
-                        <svg aria-hidden="true" focusable="false" data-prefix="dh" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon svg-inline--fa fa-angle-down fa-w-16">
-                          <path fill="currentColor" d="M20.885 7.99a1.25 1.25 0 01.09 1.666l-.09.101-8 8a1.25 1.25 0 01-1.667.091l-.101-.09-8-8a1.25 1.25 0 011.666-1.859l.102.09L12 15.105l7.117-7.116a1.25 1.25 0 011.666-.09l.102.09z" class></path>
-                        </svg>
                       </button>
                       <ul role="menu" tabindex="-1" class="dropdown-menu" aria-labelledby="__BVID__1003__BV_toggle_">
                         <li role="presentation">
@@ -976,6 +973,20 @@
           } else {
               element.classList.remove('is-scrolled');
           }
+      });
+  //      글 정렬 드롭다운
+      document.querySelectorAll('.dropdown-item').forEach(item => {
+          item.addEventListener('click', function(event) {
+              event.preventDefault(); // 기본 동작(페이지 이동) 방지
+              const selectedText = this.textContent.trim();
+              document.querySelector('.dropdown-toggle span').textContent = selectedText;
+
+              // 모든 .dropdown-item에서 active 클래스 제거
+              document.querySelectorAll('.dropdown-item').forEach(el => el.classList.remove('active'));
+
+              // 클릭된 항목에 active 클래스 추가
+              this.classList.add('active');
+          });
       });
   </script>
 </body>

@@ -984,3 +984,29 @@ a {
     font-weight: 600;
     line-height: 1.75rem;
 }
+
+.handle-col:hover {
+    transform: translateY(-7px); /* 위로 10px 이동 */
+    transition: transform 0.3s ease;
+}
+
+/* 최신순 클릭 시 */
+
+.dh-dropdown-filter .dropdown-menu {
+    padding: 0;
+    width: 100%;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu[x-placement^=bottom], .dropdown-menu[x-placement^=left], .dropdown-menu[x-placement^=right], .dropdown-menu[x-placement^=top] {
+    bottom: auto;
+    right: auto;
+}
+

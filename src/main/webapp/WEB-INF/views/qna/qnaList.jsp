@@ -197,12 +197,8 @@
                         </div>
                         <div class="right">
                           <div class="dropdown b-dropdown ordering-dropdown btn-group dh-dropdown-filter size-md" right id="__BVID__256">
-                            <button aria-haspopup="menu" aria-expanded="false" type="button" class="btn dropdown-toggle btn-secondary dropdown-toggle-no-caret" id="__BVID__256__BV_toggle_">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                               <span> 최신순 </span>
-                              <svg data-v-387ef010="" aria-hidden="true" focusable="false" data-prefix="dh" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon svg-inline--fa fa-angle-down fa-w-16">
-                                <path fill="currentColor" d="M20.885 7.99a1.25 1.25 0 01.09 1.666l-.09.101-8 8a1.25 1.25 0 01-1.667.091l-.101-.09-8-8a1.25 1.25 0 011.666-1.859l.102.09L12 15.105l7.117-7.116a1.25 1.25 0 011.666-.09l.102.09z" class="">
-                                </path>
-                              </svg>
                             </button>
                             <ul role="menu" tabindex="-1" class="dropdown-menu dropdown-menu-right" aria-labelledby="__BVID__256__BV_toggle_">
                               <li role="presentation">
@@ -774,7 +770,7 @@
 <%-- 부트스트랩 --%>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         var element = document.querySelector('.default-header');
 
         if (window.scrollY > 100) {
@@ -783,6 +779,26 @@
             element.classList.remove('is-scrolled');
         }
     });
-</script>
+    //     드롭다운
+        document.addEventListener('DOMContentLoaded', function() {
+        // 모든 드롭다운 아이템에 대한 클릭 이벤트 리스너 추가
+        document.querySelectorAll('.dropdown-item').forEach(function (item) {
+            item.addEventListener('click', function () {
+                // 클릭된 아이템의 텍스트 콘텐츠를 가져옴
+                var text = this.textContent || this.innerText;
+
+                // 버튼 내 span 태그의 텍스트를 업데이트
+                document.querySelector('.dropdown-toggle span').textContent = text;
+
+                // 현재 활성화된 드롭다운 아이템의 'active' 클래스 제거
+                document.querySelector('.dropdown-item.active').classList.remove('active');
+
+                // 클릭된 아이템에 'active' 클래스 추가
+                this.classList.add('active');
+            });
+        });
+    });
+
+  </script>
 </body>
 </html>
