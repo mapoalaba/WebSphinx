@@ -19,7 +19,7 @@
           <div class="slideshow-container">
             <div class="slider">
               <div class="slides">
-                <div class="slide"><a href="#"><img src="../../../resources/img/banner1.jpg" alt="이미지1"></a></div>
+                <div class="slide"><a href="../drill/drillList.jsp"><img src="../../../resources/img/banner1.jpg" alt="이미지1"></a></div>
                 <div class="slide"><a href="../game/gameList.jsp"><img src="../../../resources/img/banner2.png" alt="이미지2"></a></div>
                 <div class="slide"><a href="../forum/forumList.jsp"><img src="../../../resources/img/banner3.png" alt="이미지3"></a></div>
               </div>
