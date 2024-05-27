@@ -183,3 +183,11 @@ hr {
 .signup-btn a {
     color: #1a1a1b;
 }
+
+.login-card .split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+}
+

@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="../../../resources/css/login.css">
-  <script src="#"></script>
+  <script src="../../../resources/js/login.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <%-- 폰트어썸 --%>
   <script src="https://kit.fontawesome.com/622425e4a6.js" crossorigin="anonymous"></script>
@@ -15,7 +15,6 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="layout-default">
-        <jsp:include page="../main/header.jsp"/>
         <main class="app-main">
           <div class="page-login container">
             <div class="card login-card">
