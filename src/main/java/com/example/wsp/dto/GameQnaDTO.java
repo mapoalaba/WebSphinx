@@ -12,17 +12,6 @@ public class GameQnaDTO {
     private String id;
     private int game_no;
 
-    public GameQnaDTO(int qna_no, String qna_title, String qna_content, Timestamp qna_regist, int qna_visit, int qna_recom, String id, int game_no) {
-        this.qna_no = qna_no;
-        this.qna_title = qna_title;
-        this.qna_content = qna_content;
-        this.qna_regist = qna_regist;
-        this.qna_visit = qna_visit;
-        this.qna_recom = qna_recom;
-        this.id = id;
-        this.game_no = game_no;
-    }
-
     public int getQna_no() {
         return qna_no;
     }

@@ -12,17 +12,6 @@ public class UsersDTO {
     private String profile;
     private Date regist;
 
-    public UsersDTO(String id, String pw, String nickname, String name, String email, String introduct, String profile, Date regist) {
-        this.id = id;
-        this.pw = pw;
-        this.nickname = nickname;
-        this.name = name;
-        this.email = email;
-        this.introduct = introduct;
-        this.profile = profile;
-        this.regist = regist;
-    }
-
     public String getId() {
         return id;
     }
@@ -85,5 +74,19 @@ public class UsersDTO {
 
     public void setRegist(Date regist) {
         this.regist = regist;
+    }
+
+    @Override
+    public String toString() {
+        return "UsersDTO{" +
+                "id='" + id + '\'' +
+                ", pw='" + pw + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", introduct='" + introduct + '\'' +
+                ", profile='" + profile + '\'' +
+                ", regist=" + regist +
+                '}';
     }
 }

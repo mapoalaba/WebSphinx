@@ -9,14 +9,6 @@ public class FreeBoardCommentDTO {
     private String id;
     private int fb_no;
 
-    public FreeBoardCommentDTO(int fbc_no, String fbc_comment, Timestamp fbc_regist, String id, int fb_no) {
-        this.fbc_no = fbc_no;
-        this.fbc_comment = fbc_comment;
-        this.fbc_regist = fbc_regist;
-        this.id = id;
-        this.fb_no = fb_no;
-    }
-
     public int getFbc_no() {
         return fbc_no;
     }

@@ -13,20 +13,6 @@ public class GameDTO {
     private String game_s_file;
     private String id;
 
-    public GameDTO(int game_no, String game_title, String game_content, int game_level, String tag, String flag, int game_visit, int game_recom, String game_o_file, String game_s_file, String id) {
-        this.game_no = game_no;
-        this.game_title = game_title;
-        this.game_content = game_content;
-        this.game_level = game_level;
-        this.tag = tag;
-        this.flag = flag;
-        this.game_visit = game_visit;
-        this.game_recom = game_recom;
-        this.game_o_file = game_o_file;
-        this.game_s_file = game_s_file;
-        this.id = id;
-    }
-
     public int getGame_no() {
         return game_no;
     }

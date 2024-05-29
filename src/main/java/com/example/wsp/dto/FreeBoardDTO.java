@@ -11,16 +11,6 @@ public class FreeBoardDTO {
     private int fb_visit;
     private int fb_recom;
 
-    public FreeBoardDTO(int fb_no, String id, String fb_title, String fb_content, Timestamp fb_regist, int fb_visit, int fb_recom) {
-        this.fb_no = fb_no;
-        this.id = id;
-        this.fb_title = fb_title;
-        this.fb_content = fb_content;
-        this.fb_regist = fb_regist;
-        this.fb_visit = fb_visit;
-        this.fb_recom = fb_recom;
-    }
-
     public int getFb_no() {
         return fb_no;
     }

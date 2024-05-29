@@ -9,14 +9,6 @@ public class GameWriteupCommentDTO {
     private int game_no;
     private String id;
 
-    public GameWriteupCommentDTO(int w_com_no, String comments, Timestamp w_com_regist, int game_no, String id) {
-        this.w_com_no = w_com_no;
-        this.comments = comments;
-        this.w_com_regist = w_com_regist;
-        this.game_no = game_no;
-        this.id = id;
-    }
-
     public int getW_com_no() {
         return w_com_no;
     }

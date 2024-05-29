@@ -8,13 +8,6 @@ public class GameWriteupDTO {
     private String writeup;
     private Timestamp writeup_regist;
 
-    public GameWriteupDTO(int game_no, String id, String writeup, Timestamp writeup_regist) {
-        this.game_no = game_no;
-        this.id = id;
-        this.writeup = writeup;
-        this.writeup_regist = writeup_regist;
-    }
-
     public int getGame_no() {
         return game_no;
     }

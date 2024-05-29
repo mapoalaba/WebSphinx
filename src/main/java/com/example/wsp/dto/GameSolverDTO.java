@@ -7,12 +7,6 @@ public class GameSolverDTO {
     private int game_no;
     private Timestamp solver_regist;
 
-    public GameSolverDTO(String id, int game_no, Timestamp solver_regist) {
-        this.id = id;
-        this.game_no = game_no;
-        this.solver_regist = solver_regist;
-    }
-
     public String getId() {
         return id;
     }

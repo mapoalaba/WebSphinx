@@ -10,17 +10,6 @@ public class CountDTO {
     private int solver_reverse;
     private int solver_crypto;
 
-    public CountDTO(String id, int post, int comments, int qna, int answer, int solver_web, int solver_reverse, int solver_crypto) {
-        this.id = id;
-        this.post = post;
-        this.comments = comments;
-        this.qna = qna;
-        this.answer = answer;
-        this.solver_web = solver_web;
-        this.solver_reverse = solver_reverse;
-        this.solver_crypto = solver_crypto;
-    }
-
     public String getId() {
         return id;
     }
